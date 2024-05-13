@@ -101,7 +101,7 @@ header > div {
 main > div:first-child {
     width: 100%;
     height: 100vh;
-    background: url("../assets/background.jpg");
+    background: url("../assets/istockphoto-1138069810-612x612.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -152,7 +152,7 @@ body main {
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:first-child {
-    color: #FD6E0A;
+    color: #2169f0;
     font-family: 'PT Serif', serif;
     font-size: 2vw;
     font-style: normal;
@@ -181,7 +181,7 @@ body main {
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) > span {
-    color: #FC801D;
+    color: #22aeff;
     /*font-family: 'poppins', Roboto;*/
     font-family: 'poppins', Roboto, cursive;
     font-size: 2vw;
@@ -222,7 +222,7 @@ body main {
     height: 7vh;
     flex-shrink: 0;
     border-radius: 50px;
-    background: #FD6E0A;
+    background: #0a22fd;
     font-size: 1vw;
     transition-duration: 2s;
     color: white;
@@ -233,7 +233,7 @@ body main {
     right: 0;
     width: 6vw;
     height: 6vh;
-    background-color: #FCC419;
+    background-color: #1968fc;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     z-index: 10;
@@ -268,7 +268,7 @@ body main {
     width: 30vw;
     height: 30vw;
     border-radius: 100%;
-    background: #FCC419;
+    background: #1996fc;
     position: absolute;
     right: 4vw;
     top: 5vh;
@@ -315,7 +315,7 @@ body main {
 }
 
 .status-section > div p {
-    color: #FA5700;
+    color: #0019fa;
     font-family: 'poppins', Roboto, cursive;
     font-size: 1.2vw;
     font-style: normal;

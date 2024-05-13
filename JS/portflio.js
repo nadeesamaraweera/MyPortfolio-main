@@ -1,4 +1,4 @@
-let name = ["S","a","v","i","n","d","a"," ","j","a","y","a","s","e","k","r","a","",""];
+let name = ["N","a","d","e","e","s","h","a"," ","S","a","m","a","r","a","w","e","e","r","a","",""];
 
 let char = 0;
 
@@ -35,7 +35,7 @@ let darkTrue = true;
 $('#Dark').on('click', function () {
     if (darkTrue) {
 
-        $("#headderIcon").attr("src", "assets/images/darkHedderIcon.png");
+        $("#headerIcon").attr("src", "assets/darkheaderIcon.png");
 
         $('#body').css('background', '#101820');
 
