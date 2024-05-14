@@ -1,3 +1,13 @@
+body header div img {
+    position: relative;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+
+}
+
+
 #loading {
     position: fixed;
     display: block;
@@ -34,11 +44,11 @@
 
 ::-webkit-scrollbar {
     width: 0.7vw;
-    background-color: #143d75;
+    background-color: #355c5c;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #37abee;
+    background-color: #1c5eb4;
 }
 
 header {
@@ -54,16 +64,18 @@ header {
 }
 
 #visitors > span:first-child {
-    margin-left: 5vw;
+    margin-left: 6vw;
     color: #211854;
     font-family: 'PT Serif', serif;
     width: max-content;
+    font-size: 25px;
 }
 
 #count {
     color: #3216af;
     font-family: 'PT Serif', serif;
     width: max-content;
+    font-size: 21px;
 }
 
 header nav > div > menu {
@@ -80,7 +92,7 @@ header nav > div > menu > li > a {
     color: #000102;
     font-family: 'PT Sans Narrow', sans-serif;
     /*font-family: 'Roboto', sans-serif;*/
-    font-size: 1.2em;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -96,6 +108,25 @@ header > div {
     position: relative;
     left: 2vw;
 }
+
+
+/* main h1 {
+    text-align: center;
+    color: #3455ad;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h1 span {
+    color: #000000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} */
 
 /*background ----------------------------------------------------*/
 main > div:first-child {
@@ -152,16 +183,16 @@ body main {
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:first-child {
-    color: #2169f0;
+    color: #226bf3;
     font-family: 'PT Serif', serif;
-    font-size: 2vw;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h1:nth-child(2) {
-    color: #162A5F;
+    color: #1044d4;
     font-family: 'PT Serif', serif;
     font-size: 3.5vw;
     font-style: normal;
@@ -171,9 +202,9 @@ body main {
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) {
-    color: #15295F;
+    color: #3e6ef1;
     font-family: 'PT Serif', serif;
-    font-size: 2vw;
+    font-size: 2.3vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -181,39 +212,40 @@ body main {
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) > span {
-    color: #22aeff;
+    color: #1d9feb;
     /*font-family: 'poppins', Roboto;*/
     font-family: 'poppins', Roboto, cursive;
-    font-size: 2vw;
+    font-size: 2.3vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 15px;
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:nth-child(4) {
     color: #171212;
     font-family: Libre Baskerville, serif;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 0;
+    
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside > strong {
-    color: #15295F;
+    color: #094092;
     font-family: 'PT Serif', serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     position: relative;
-    top: 20vh;
+    top: 5vh;
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside > div:last-child {
     position: absolute;
-    bottom: -4vw;
+    bottom: -2vw;
     left: -2vw;
 }
 
@@ -222,10 +254,12 @@ body main {
     height: 7vh;
     flex-shrink: 0;
     border-radius: 50px;
-    background: #0a22fd;
-    font-size: 1vw;
+    background: #093ff0;
+    font-size: 1.3vw;
     transition-duration: 2s;
     color: white;
+    border: #002fff;
+    margin-left: 30px;
 }
 
 .home-section > section:nth-child(3) > section:last-child > div:first-child {
@@ -248,7 +282,7 @@ body main {
     width: 30vw;
     height: 30vw;
     border-radius: 100%;
-    background: #FCE8E7;
+    background: #002fff;
     position: absolute;
     right: 0;
     top: 5vh;
@@ -258,7 +292,7 @@ body main {
     width: 30vw;
     height: 30vw;
     border-radius: 100%;
-    background: #FFDEDB;
+    background: #022bbe;
     position: absolute;
     right: 2vw;
     top: 5vh;
@@ -268,7 +302,7 @@ body main {
     width: 30vw;
     height: 30vw;
     border-radius: 100%;
-    background: #1996fc;
+    background: #04477e;
     position: absolute;
     right: 4vw;
     top: 5vh;
@@ -276,26 +310,27 @@ body main {
 
 .home-section > section:nth-child(3) > section:last-child > div:last-child > div:nth-child(4) {
     width: 28vw;
-    height: 28vw;
-    background: url("../images/my-img.png");
+    height: 38vw;
+    background: url("../assets/myPhoto.png");
     background-size: cover;
     position: relative;
-    top: 10vh;
+    bottom: 5.4vw ;
     left: 7vw;
+    border-radius: 47%;
 }
 
 .status-section {
     display: flex;
     border-radius: 50px;
-    border: 1px solid #8AEDF3;
+    border: 2px solid #d6dff1;
     background: #FFF;
-    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 4px 10px 0px rgba(19, 137, 247, 0.25);
     backdrop-filter: blur(100px);
     width: 50%;
     height: 15vh;
     margin: auto;
     position: relative;
-    top: -37vh;
+    top: -36vh;
     justify-content: space-around;
 }
 
@@ -305,7 +340,7 @@ body main {
 }
 
 .status-section > div h4 {
-    color: #162A5F;
+    color: #0044ff;
     font-family: 'poppins', Roboto, ui-monospace;
     font-size: 1.7vw;
     font-style: normal;
@@ -315,7 +350,7 @@ body main {
 }
 
 .status-section > div p {
-    color: #0019fa;
+    color: #484953;
     font-family: 'poppins', Roboto, cursive;
     font-size: 1.2vw;
     font-style: normal;
@@ -334,17 +369,17 @@ body main {
 }
 
 .status-section > div:first-child > div:first-child {
-    background: url("../images/service-header.png");
+    background: url("../assets/icons8-service-100.png");
     background-size: cover;
 }
 
 .status-section > div:nth-child(2) > div:first-child {
-    background: url("../images/project-header.png");
+    background: url("../assets/icons8-projects-100.png");
     background-size: cover;
 }
 
 .status-section > div:last-child > div:first-child {
-    background: url("../images/skill-header.png");
+    background: url("../assets/icons8-skills-100.png");
     background-size: cover;
 }
 
@@ -380,7 +415,7 @@ body main {
     width: 17px;
     left: 4px;
     bottom: 2px;
-    background-color: #e88f13;
+    background-color: #6d6d6d;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -419,7 +454,7 @@ input:checked + .slider:before {
 
 .curve {
     position: relative;
-    background-color: rgba(246, 234, 113, 0.66);
+    background-color: rgba(210, 221, 255, 0.66);
     min-height: 100vh;
 }
 

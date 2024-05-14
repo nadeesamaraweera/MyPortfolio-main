@@ -24,12 +24,12 @@ h1 span {
     line-height: normal;
 }
 
-body header div img {
+/* body header div img {
     position: relative;
     border-radius: 100%;
     width: 55px;
     height: 55px;
-}
+} */
 
 body header {
     background: #FFF;
