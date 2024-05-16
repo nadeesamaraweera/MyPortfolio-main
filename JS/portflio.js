@@ -1,37 +1,9 @@
-let darkTrue = true;
-
-$('#DarkPage').on('click', function () {
-
-    if (darkTrue) {
-
-        $('#body').css('background', '#101820');
-
-        $('#main').css('background', '#101820');
-
-        $('main section').css('background', '#FEB062');
-
-        $('main section div:nth-child(2) h4').css('color', 'black');
-
-        $('body header').css('background', '#9B7147');
-
-        $('main h1').css('color', 'white');
-
-
-        darkTrue = false;
-    } else {
-        window.location.reload(true);
-        darkTrue = true;
-    }
-
-
-
-
 let name = ["N","a","d","e","e","s","h","a"," ","S","a","m","a","r","a","w","e","e","r","a","",""];
 
 let char = 0;
 
 $('#typeName').css({
-    height: '50px',
+    height: '20px',
     marginBottom:'8vh'
 });
 
@@ -58,268 +30,270 @@ function removeLoader() {
     });
 }
 
-let darkTrue = true;
 
-$('#Dark').on('click', function () {
-    if (darkTrue) {
 
-        $("#headerIcon").attr("src", "assets/darkheaderIcon.png");
+// let darkTrue = true;
 
-        $('#body').css('background', '#101820');
+// $('#Dark').on('click', function () {
+//     if (darkTrue) {
 
-        $('#header').css({
-            background: '#101820',
-            borderBottom: '#150449'
-        });
+//         $("#headerIcon").attr("src", "assets/darkheaderIcon.png");
 
-        $('#header nav > div > menu > li > a').css('color', 'white');
+//         $('#body').css('background', '#101820');
 
-        $('.curve').css({
-            backgroundColor: 'rgba(199, 154, 98, 1)'
-        });
+//         $('#header').css({
+//             background: '#101820',
+//             borderBottom: '#150449'
+//         });
 
-        $('.custom-shape-divider-bottom-1693915055 .shape-fill').css('fill', '#101820');
+//         $('#header nav > div > menu > li > a').css('color', 'white');
 
-        $('.home-section > section:nth-child(3) > section:last-child > div:last-child > div:first-child ').css({
-            background: '#EB9A94'
-        });
+//         $('.curve').css({
+//             backgroundColor: 'rgba(199, 154, 98, 1)'
+//         });
 
-        $('.home-section > section:nth-child(3) > section:last-child > div:last-child > div:nth-child(2)').css({
-            background: '#F4B486'
-        });
+//         $('.custom-shape-divider-bottom-1693915055 .shape-fill').css('fill', '#101820');
 
-        $('.home-section > section:nth-child(3) > section:last-child > div:last-child > div:nth-child(3)').css({
-            background: '#CF793D'
-        });
+//         $('.home-section > section:nth-child(3) > section:last-child > div:last-child > div:first-child ').css({
+//             background: '#EB9A94'
+//         });
 
-        $('.home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:first-child').css({
-            color: 'white'
-        });
+//         $('.home-section > section:nth-child(3) > section:last-child > div:last-child > div:nth-child(2)').css({
+//             background: '#F4B486'
+//         });
 
-        $('.home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) > span ').css({
-            color: 'white'
-        });
+//         $('.home-section > section:nth-child(3) > section:last-child > div:last-child > div:nth-child(3)').css({
+//             background: '#CF793D'
+//         });
 
-        $('.home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:nth-child(4)').css({
-            color: 'white'
-        });
+//         $('.home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:first-child').css({
+//             color: 'white'
+//         });
 
-        $('.status-section').css({
-            background: '#101820',
-            border: '1px solid orange'
-        });
+//         $('.home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) > span ').css({
+//             color: 'white'
+//         });
 
-        $('.status-section > div h4').css({
-            color: 'white'
-        });
+//         $('.home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:nth-child(4)').css({
+//             color: 'white'
+//         });
 
-        $('.home-section > section:nth-child(3) > section:nth-child(1) > aside > div:last-child > a > button').css({
-            background: '#101820'
-        });
+//         $('.status-section').css({
+//             background: '#101820',
+//             border: '1px solid orange'
+//         });
 
-        $('#main').css('background', '#101820');
+//         $('.status-section > div h4').css({
+//             color: 'white'
+//         });
 
-        $('.home-section').css('background', '#101820');
+//         $('.home-section > section:nth-child(3) > section:nth-child(1) > aside > div:last-child > a > button').css({
+//             background: '#101820'
+//         });
 
-        $('.service-section > h4 ').css('color', '#FD6E0A');
+//         $('#main').css('background', '#101820');
 
-        $('.service-section > h1').css('color', 'white');
+//         $('.home-section').css('background', '#101820');
 
-        $('.service-section > aside > div').css('background', '#FEB062');
+//         $('.service-section > h4 ').css('color', '#FD6E0A');
 
-        $('.service-section > aside:nth-child(4) > div:first-child div:nth-child(1)').css({
-            background: 'url("assets/dark-images/status1.png")',
-            backgroundSize: 'cover'
-        });
+//         $('.service-section > h1').css('color', 'white');
 
-        $('.service-section > aside:nth-child(4) > div:nth-child(2) div:nth-child(1)').css({
-            background: 'url("assets/dark-images/status2.png")',
-            backgroundSize: 'cover'
-        });
+//         $('.service-section > aside > div').css('background', '#FEB062');
 
-        $('.service-section > aside:nth-child(4) > div:nth-child(3) div:nth-child(1)').css({
-            background: 'url("assets/dark-images/status3.png")',
-            backgroundSize: 'cover'
-        });
+//         $('.service-section > aside:nth-child(4) > div:first-child div:nth-child(1)').css({
+//             background: 'url("assets/dark-images/status1.png")',
+//             backgroundSize: 'cover'
+//         });
 
-        $('.service-section > aside:last-child > div:first-child div:nth-child(1)').css({
-            background: 'url("assets/dark-images/status4.png")',
-            backgroundSize: 'cover'
-        });
+//         $('.service-section > aside:nth-child(4) > div:nth-child(2) div:nth-child(1)').css({
+//             background: 'url("assets/dark-images/status2.png")',
+//             backgroundSize: 'cover'
+//         });
 
-        $('.service-section > aside:last-child > div:last-child div:nth-child(1)').css({
-            background: 'url("assets/dark-images/status5.png")',
-            backgroundSize: 'cover'
-        });
+//         $('.service-section > aside:nth-child(4) > div:nth-child(3) div:nth-child(1)').css({
+//             background: 'url("assets/dark-images/status3.png")',
+//             backgroundSize: 'cover'
+//         });
 
-        $('.service-section > aside > div p').css({
-            color: 'white'
-        });
+//         $('.service-section > aside:last-child > div:first-child div:nth-child(1)').css({
+//             background: 'url("assets/dark-images/status4.png")',
+//             backgroundSize: 'cover'
+//         });
 
-        $('.aboutme-section > div:nth-child(2) > h1 > span:first-child').css({
-            color: '#FD6E0A'
-        });
+//         $('.service-section > aside:last-child > div:last-child div:nth-child(1)').css({
+//             background: 'url("assets/dark-images/status5.png")',
+//             backgroundSize: 'cover'
+//         });
 
-        $('.aboutme-section > div:nth-child(2) > h1').css({
-            color: 'white'
-        });
+//         $('.service-section > aside > div p').css({
+//             color: 'white'
+//         });
 
-        $('.aboutme-section > div:nth-child(2) > h1 > span:last-child ').css({
-            color: 'gray'
-        });
+//         $('.aboutme-section > div:nth-child(2) > h1 > span:first-child').css({
+//             color: '#FD6E0A'
+//         });
 
-        $('.aboutme-section > section:nth-child(3) > aside:last-child > p:first-child > span').css({
-            color: '#FD6E0A'
-        });
+//         $('.aboutme-section > div:nth-child(2) > h1').css({
+//             color: 'white'
+//         });
 
-        $('.aboutme-section > section:nth-child(3) > aside:last-child > p:first-child').css({
-            color: 'white'
-        });
+//         $('.aboutme-section > div:nth-child(2) > h1 > span:last-child ').css({
+//             color: 'gray'
+//         });
 
-        $('#aboutGmail, #aboutPhone').css({
-            color: 'white'
-        });
+//         $('.aboutme-section > section:nth-child(3) > aside:last-child > p:first-child > span').css({
+//             color: '#FD6E0A'
+//         });
 
-        $('.aboutme-section > section:nth-child(3) > aside:last-child > p:last-child').css({
-            color: 'white'
-        });
+//         $('.aboutme-section > section:nth-child(3) > aside:last-child > p:first-child').css({
+//             color: 'white'
+//         });
 
-        $('.education-section > h4:first-child').css('color', '#FD6E0A');
+//         $('#aboutGmail, #aboutPhone').css({
+//             color: 'white'
+//         });
 
-        $('.education-section h1').css('color', 'white');
+//         $('.aboutme-section > section:nth-child(3) > aside:last-child > p:last-child').css({
+//             color: 'white'
+//         });
 
-        $('.education-section section > .detail > h4').css('color', '#6891FF');
+//         $('.education-section > h4:first-child').css('color', '#FD6E0A');
 
-        $('.education-section section > .detail p').css('color', 'white');
+//         $('.education-section h1').css('color', 'white');
 
-        $('.education-section #line').css({
-            borderLeft: "3px solid white"
-        });
+//         $('.education-section section > .detail > h4').css('color', '#6891FF');
 
-        $('.language-tools > h4').css({
-            color: '#FD6E0A'
-        });
+//         $('.education-section section > .detail p').css('color', 'white');
 
-        $('.language-tools > h1').css({
-            color: 'white'
-        });
+//         $('.education-section #line').css({
+//             borderLeft: "3px solid white"
+//         });
 
-        $('.language-tools > div:last-child > svg line').css({
-            stroke: "rgb(254 254 255)"
-        });
+//         $('.language-tools > h4').css({
+//             color: '#FD6E0A'
+//         });
 
-        $('.recent-works > h4').css({
-            color: '#FD6E0A'
-        });
+//         $('.language-tools > h1').css({
+//             color: 'white'
+//         });
 
-        $('.recent-works > h1').css('color', 'white');
+//         $('.language-tools > div:last-child > svg line').css({
+//             stroke: "rgb(254 254 255)"
+//         });
 
-        $('.fa-graduation-cap').css('color', 'white');
+//         $('.recent-works > h4').css({
+//             color: '#FD6E0A'
+//         });
 
-        $('#visitors > span').css('color', 'white');
+//         $('.recent-works > h1').css('color', 'white');
 
-        $('.path').css({
-            fill: '#FEB062'
-        });
+//         $('.fa-graduation-cap').css('color', 'white');
 
-        $('.recent-works > section > div:nth-child(1) > div > div:first-child').css({
-            background: 'url("assets/dark-images/status1.png")',
-            backgroundSize: 'cover'
-        });
+//         $('#visitors > span').css('color', 'white');
 
-        $('.recent-works > section > div:nth-child(2) > div > div:first-child').css({
-            background: 'url("assets/dark-images/status2.png")',
-            backgroundSize: 'cover'
-        });
+//         $('.path').css({
+//             fill: '#FEB062'
+//         });
 
-        $('.recent-works > section > div:nth-child(3) > div > div:first-child').css({
-            background: 'url("assets/dark-images/status3.png")',
-            backgroundSize: 'cover'
-        });
+//         $('.recent-works > section > div:nth-child(1) > div > div:first-child').css({
+//             background: 'url("assets/dark-images/status1.png")',
+//             backgroundSize: 'cover'
+//         });
 
-        $('.recent-works > section > div > div > p ').css('color', 'black');
+//         $('.recent-works > section > div:nth-child(2) > div > div:first-child').css({
+//             background: 'url("assets/dark-images/status2.png")',
+//             backgroundSize: 'cover'
+//         });
 
-        $('.certificate-section > h4 ').css({
-            color: '#FD6E0A'
-        });
+//         $('.recent-works > section > div:nth-child(3) > div > div:first-child').css({
+//             background: 'url("assets/dark-images/status3.png")',
+//             backgroundSize: 'cover'
+//         });
 
-        $('.certificate-section > h1').css({
-            color: 'white'
-        });
+//         $('.recent-works > section > div > div > p ').css('color', 'black');
 
-        $('.general-life-section > h4 ').css({
-            color: '#FD6E0A'
-        });
+//         $('.certificate-section > h4 ').css({
+//             color: '#FD6E0A'
+//         });
 
-        $('.general-life-section > h1 ').css({
-            color: 'white'
-        });
+//         $('.certificate-section > h1').css({
+//             color: 'white'
+//         });
 
-        $('.contact-section > h4').css({
-            color: '#FD6E0A'
-        });
+//         $('.general-life-section > h4 ').css({
+//             color: '#FD6E0A'
+//         });
 
-        $('.contact-section > h1').css({
-            color: 'white'
-        });
+//         $('.general-life-section > h1 ').css({
+//             color: 'white'
+//         });
 
-        $('.contact-section > section > address > div > div:last-child > h4 , .contact-section > section > address > h4').css({
-            color: 'white'
-        });
+//         $('.contact-section > h4').css({
+//             color: '#FD6E0A'
+//         });
 
-        $('.contact-section > section > address a , .contact-section > section > address p').css({
-            color: '#FD6E0A'
-        });
+//         $('.contact-section > h1').css({
+//             color: 'white'
+//         });
 
-        $('.contact-section aside > form > fieldset > label').css({
-            color: 'white'
-        });
+//         $('.contact-section > section > address > div > div:last-child > h4 , .contact-section > section > address > h4').css({
+//             color: 'white'
+//         });
 
-        $('#footer').css('background', '#906C3C');
+//         $('.contact-section > section > address a , .contact-section > section > address p').css({
+//             color: '#FD6E0A'
+//         });
 
-        darkTrue = false;
-    } else {
-        window.location.reload(true);
-        darkTrue = true;
-    }
-});
+//         $('.contact-section aside > form > fieldset > label').css({
+//             color: 'white'
+//         });
 
-let moveLeft = 0;
+//         $('#footer').css('background', '#906C3C');
 
-let moveRight = 0;
+//         darkTrue = false;
+//     } else {
+//         window.location.reload(true);
+//         darkTrue = true;
+//     }
+// });
 
-let count = 0;
+// let moveLeft = 0;
 
-$('#leftButton').on('click', function () {
-    count--;
-    moveLeft -= 49;
+// let moveRight = 0;
 
-    $('.certificate-section > section > div:nth-child(2)>div').css({
-        transitionDuration: '1s',
-        position: 'relative',
-        left: -moveLeft + 'vw'
-    });
-});
+// let count = 0;
 
-$('#rightButton').on('click', function () {
-    count++;
-    if (count <= 3) {
-        moveLeft += 49;
+// $('#leftButton').on('click', function () {
+//     count--;
+//     moveLeft -= 49;
 
-        $('.certificate-section > section > div:nth-child(2)>div').css({
-            transitionDuration: '1s',
-            position: 'relative',
-            left: -moveLeft + 'vw'
-        });
-    }
-});
+//     $('.certificate-section > section > div:nth-child(2)>div').css({
+//         transitionDuration: '1s',
+//         position: 'relative',
+//         left: -moveLeft + 'vw'
+//     });
+// });
 
-let countVisitors = parseInt(localStorage.getItem('visitorCounter') || '0');
+// $('#rightButton').on('click', function () {
+//     count++;
+//     if (count <= 3) {
+//         moveLeft += 49;
 
-countVisitors++;
+//         $('.certificate-section > section > div:nth-child(2)>div').css({
+//             transitionDuration: '1s',
+//             position: 'relative',
+//             left: -moveLeft + 'vw'
+//         });
+//     }
+// });
 
-localStorage.setItem('visitorCounter', countVisitors);
-$('#count').css('marginLeft','10px')
-$('#count').text(countVisitors);
+// let countVisitors = parseInt(localStorage.getItem('visitorCounter') || '0');
 
-})
+// countVisitors++;
+
+// localStorage.setItem('visitorCounter', countVisitors);
+// $('#count').css('marginLeft','10px')
+// $('#count').text(countVisitors);
+
+// })
