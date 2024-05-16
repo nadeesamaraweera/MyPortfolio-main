@@ -582,7 +582,7 @@ end headder style --------------------------------------------------------------
 /*service section -----------------------------------------------------------------------------------------------*/
 .service-section > h4 {
     text-align: center;
-    color: #134ae2;
+    color: #2090ec;
     font-family: 'PT Serif', serif;
     font-size: 26px;
     font-style: normal;
@@ -593,12 +593,19 @@ end headder style --------------------------------------------------------------
 
 .service-section > h1 {
     text-align: center;
-    color: #1a94db;
     font-family: 'PT Serif', serif;
-    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    color: #0a4bfd;
+    font-family: 'PT Serif', serif;
+    font-size: 2vw;
+}
+
+.service-section > h1 >span{
+    font-size: 5vw;
+    color: #042da0;
+
 }
 
 main section:nth-child(3) {
@@ -607,6 +614,12 @@ main section:nth-child(3) {
     position: relative;
     box-sizing: border-box;
 }
+
+.service-section > div:nth-child(2) > h1 > span:first-child {
+    font-size: 5vw;
+    color: #042da0;
+}
+
 
 .service-section > aside:nth-child(4) {
     margin: auto;
@@ -669,7 +682,7 @@ main section:nth-child(3) {
 }
 
 .service-section > aside > div h4 {
-    color: #15295F;
+    color: #3060e6;
     font-family: Libre Baskerville, cursive;
     font-size: 1.7em;
     font-style: normal;
@@ -679,7 +692,7 @@ main section:nth-child(3) {
 }
 
 .service-section > aside > div p {
-    color: #757575;
+    color: #092f5e;
     text-align: center;
     font-family: 'PT Serif', serif;
     font-size: 1.5em;
@@ -721,10 +734,6 @@ main section:nth-child(3) {
     
 }
 
-
-
-
-
 .aboutme-section > section:nth-child(3) > aside:last-child > p:first-child {
     color: #000;
     font-family: 'PT Serif', serif;
@@ -752,10 +761,10 @@ main section:nth-child(3) {
 .aboutme-section > section:nth-child(3) > aside:last-child > p:last-child {
     color: #171212;
     font-family: 'PT Serif', serif;
-    font-size: 2vw;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
-    line-height: 5vh;
+    line-height: 4vh;
     width: max-content;
     height: max-content;
     position: relative;
@@ -764,7 +773,7 @@ main section:nth-child(3) {
 .aboutme-section > section:nth-child(3) > aside:last-child > p:last-child > span {
     color: #0a56e4;
     font-family: 'PT Serif', serif;
-    font-size: 4vh;
+    font-size: 3vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -807,7 +816,7 @@ main section:nth-child(3) {
 }
 
 .education-section h1 {
-    color: #000;
+    color: #192591;
     font-family: 'PT Serif', serif;
     font-size: 40px;
     font-style: normal;
@@ -818,9 +827,9 @@ main section:nth-child(3) {
 }
 
 .education-section > h4:first-child {
-    color: #162A5F;
+    color: #32b5d6;
     font-family: 'PT Serif', serif;
-    font-size: 24px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -830,21 +839,21 @@ main section:nth-child(3) {
 .education-section hr {
     width: 20vw;
     height: 3px;
-    background-color: #FA5700;
+    background-color: #0064fa;
 }
 
 .circles {
     width: 2vw;
     height: 2vw;
     border-radius: 100%;
-    background-color: #FA5700;
+    background-color: #0025fa;
     position: relative;
     margin: auto;
 }
 
 .education-section #line {
     width: 3px;
-    border-left: 3px solid #0a2a5a;
+    border-left: 3px solid #0a3679;
     position: absolute;
     margin: auto;
     right: 0;
@@ -872,9 +881,9 @@ main section:nth-child(3) {
 }
 
 .education-section section > .detail > h4 {
-    color: #162A5F;
+    color: #1540b8;
     font-family: 'Calibri', serif;
-    font-size: 20px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -888,31 +897,45 @@ main section:nth-child(3) {
 .education-section section > .detail p {
     font-family: 'poppins', Roboto, cursive;
     width: max-content;
+    font-size: 20px;
+    color:#0b8dd8;
 }
 
 .education-section section > .detail {
     width: 30vw;
+    
 }
 
 .education-section section > .detail#detail1 {
     position: relative;
-    left: 20vw;
+    left: 25vw;
+    bottom: 2vw;
 }
 
 .education-section section > .detail#detail2 {
     position: relative;
-    left: 60vw;
+    left: 54vw;
+    bottom:2vw;
 }
 
 .education-section section > .detail#detail3 {
     position: relative;
-    left: 20vw;
+    left: 25vw;
+    bottom: 2vw;
 }
 
 .education-section section > .detail#detail4 {
-    position: absolute;
-    right: 10vw;
+    position: relative;
+    left: 54vw;
+    bottom: 2vw;
 }
+
+.education-section section > .detail#detail5 {
+    position: absolute;
+    right: 35vw;
+}
+
+
 
 /*skill section ---------------------------------------------------------------------------------------------------*/
 .language-tools {
