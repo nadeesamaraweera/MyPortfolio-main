@@ -945,16 +945,16 @@ main section:nth-child(3) {
 
 .language-tools > h4 {
     text-align: center;
-    color: #162A5F;
+    color:#32b5d6;
     font-family: 'PT Serif', serif;
-    font-size: 24px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .language-tools > h1 {
-    color: #000;
+    color: #192591;
     font-family: 'PT Serif', serif;
     font-size: 40px;
     font-style: normal;
@@ -967,7 +967,7 @@ main section:nth-child(3) {
 .language-tools > hr {
     width: 20vw;
     height: 3px;
-    background: #FD6E0A;
+    background: #0064fa;
 }
 
 .language-tools > div:last-child {
@@ -1008,14 +1008,14 @@ main section:nth-child(3) {
 
 @keyframes ellipse-anim {
     0% {
-        fill: #FD6E0A;
+        fill: #0a43fd;
         transform: rotateY(5deg);
     }
     50% {
         fill: black;
     }
     100% {
-        fill: #a3fff8;
+        fill: #739bf0;
     }
 }
 
