@@ -1526,55 +1526,32 @@ main section:nth-child(3) {
 
 body footer {
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     box-sizing: border-box;
     position: relative;
-    background: #4f61ff;
+    background: #4e85d8;
+    
 }
 
 body footer section {
     display: flex;
 }
 
-body footer section > div:nth-child(2) {
-    width: 20vw;
-    height: 5vh;
-    display: flex;
-    position: absolute;
-    right: 4vw;
-    top: 10vh;
-    margin: auto;
-}
 
-body footer section > div:nth-child(2) > div:first-child {
-    width: 6vw;
-    height: 6vw;
-    border-radius: 100%;
-    background: url("../images/down-icon.png");
-    background-size: cover;
-    margin-right: 2vw;
-}
-
-body footer section > div:first-child {
-    display: flex;
-    position: relative;
-    left: 5vw;
-    top: 3vh;
-}
-
-body footer section > div:first-child > div:first-child {
-    width: 8vw;
-    height: 10vw;
-    background: url("../images/footer-img.png");
-    background-size: cover;
-    margin-right: 3vw;
-}
 
 footer > nav {
     width: max-content;
     position: relative;
     margin: auto;
+    
+    
 }
+
+
+
+
+
+
 
 footer > div:last-child > small {
     width: max-content;
@@ -1585,6 +1562,8 @@ footer > div:last-child > small {
     right: 0;
     left: 0;
     color: white;
+    font-size: 18px;
+    
 }
 
 footer div:first-child h4 {
@@ -1595,6 +1574,7 @@ footer div:first-child h4 {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
+    margin-left: 2vw;
 }
 
 footer div:first-child p {
@@ -1605,6 +1585,7 @@ footer div:first-child p {
     font-weight: 400;
     line-height: normal;
     margin: 0;
+    margin-left: 2vw;
 }
 
 footer section > div:nth-child(2) h4 {
