@@ -938,25 +938,153 @@ main section:nth-child(3) {
 
 
 /*skill section ---------------------------------------------------------------------------------------------------*/
+.language-tools>div>h2,.language-tools>div>h2{
+    font-family: 'Bricolage Grotesque', cursive;
+    font-weight: normal;
+    font-size: 2vw;
+    text-align: center;
+    color: #1a58b6;
+    margin-bottom: 3vw;
+
+}
+
+.language-tools>div>h2>span,.language-tools>div>h2>span{
+    color: #078edb;
+}
+
+.language-tools>div{
+    position: relative;
+    display: inline-block;
+    width: calc(99%/2);
+
+    height: 80vh;
+    margin-bottom: 5vw;
+    position: relative;
+}
+
+.language-tools>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    height: 65vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.language-tools>div>div>img:first-child{
+    height: 15vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+}
+
+.language-tools>div>div>img:last-child{
+    height: 15vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+
+.language-tools>div>div>div:nth-child(2){
+    width: 20vw;
+    height: 8vh;
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language-tools>div>div>div:nth-child(3){
+    width:25vw;
+    height: 8vh;
+    /*border: 1px solid red;*/
+    display: block;
+    position: absolute;
+    top: 35vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language-tools>div:last-child>div>div:nth-child(2){
+    width: 20vw;
+    height: 8vh;
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language-tools>div:last-child>div>div:nth-child(3){
+    width:25vw;
+    height: 8vh;
+    display: block;
+    position: absolute;
+    top: 28vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language-tools>div:last-child>div>div:nth-child(4){
+    width: 20vw;
+    height: 8vh;
+    display: block;
+    position: absolute;
+    top: 40vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
 .language-tools {
     width: 100%;
     height: 70vh;
 }
 
+
+
+
 .language-tools > h4 {
     text-align: center;
     color:#32b5d6;
     font-family: 'PT Serif', serif;
-    font-size: 30px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .language-tools > h1 {
-    color: #192591;
+    color:  #0a4bfd;
     font-family: 'PT Serif', serif;
-    font-size: 40px;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -964,60 +1092,13 @@ main section:nth-child(3) {
     margin-bottom: 0;
 }
 
-.language-tools > hr {
-    width: 20vw;
-    height: 3px;
-    background: #0064fa;
-}
+.language-tools > h1 >span{
+    font-size: 5vw;
+    color: #042da0;
 
-.language-tools > div:last-child {
-    width: 90%;
-    height: 60vh;
-    margin: auto;
-    position: relative;
-    top: 5vh;
-}
-
-.language-tools > div:last-child > svg line {
-    stroke: rgb(5, 5, 14);
-    stroke-width: 2;
-    transition-duration: 2s;
-    animation-name: line-animate;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 3s;
-}
-
-@keyframes line-animate {
-    0% {
-        stroke: rgb(139, 131, 119);
-    }
-    100% {
-        stroke: rgb(5, 5, 14);
-    }
 }
 
 
-.language-tools > div:last-child > svg ellipse {
-    animation-name: ellipse-anim;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 5s;
-    position: relative;
-}
-
-@keyframes ellipse-anim {
-    0% {
-        fill: #0a43fd;
-        transform: rotateY(5deg);
-    }
-    50% {
-        fill: black;
-    }
-    100% {
-        fill: #739bf0;
-    }
-}
 
 /*recent works section-------------------------------------------------------------------------------------------------*/
 .recent-works {
@@ -1028,9 +1109,9 @@ main section:nth-child(3) {
 }
 
 .recent-works > h4 {
-    color: #162A5F;
+    color: #32b5d6;
     font-family: 'PT Serif', serif;
-    font-size: 24px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1038,22 +1119,22 @@ main section:nth-child(3) {
 }
 
 .recent-works > h1 {
-    color: #000;
+    color:#0a4bfd;
     text-align: center;
     font-family: 'PT Serif', serif;
-    font-size: 40px;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
 }
 
-.recent-works > hr {
-    width: 20vw;
-    height: 3px;
-    margin: auto;
-    background: #FD6E0A;
+.recent-works > h1 > span {
+    font-size: 5vw;
+    color: #042da0;
 }
+
+
 
 .recent-works > section {
     position: relative;
