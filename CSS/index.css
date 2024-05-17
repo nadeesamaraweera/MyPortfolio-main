@@ -1289,37 +1289,38 @@ main section:nth-child(3) {
 .general-life-section > section div:nth-child(1) {
     grid-column: 1/2;
     grid-row: 1/3;
-    background: url("../images/galle-my.jpeg");
+    background: url("../assets/blog/WhatsApp\ Image\ 2024-05-17\ at\ 20.09.16.jpeg");
     background-size: cover;
 }
 
 .general-life-section > section div:nth-child(2) {
-    background: url("../images/glass-my.jpg");
+    background: url("../assets/blog/WhatsApp\ Image\ 2024-05-17\ at\ 20.04.00\(1\).jpeg");
     background-size: cover;
 }
 
 .general-life-section > section div:nth-child(3) {
-    background: url("../images/edit.jpeg");
+    background: url("../assets/blog/WhatsApp\ Image\ 2024-05-17\ at\ 20.09.16\(1\).jpeg");
+    background-size: cover;
+}
+
+
+.general-life-section > section div:nth-child(6) {
+    background: url("../assets/blog/WhatsApp\ Image\ 2024-05-17\ at\ 20.26.03.jpeg");
     background-size: cover;
 }
 
 .general-life-section > section div:last-child {
-    background: url("../images/kottu-my.jpeg");
+    background: url("../assets/blog/WhatsApp\ Image\ 2024-05-17\ at\ 20.04.00.jpeg");
     background-size: cover;
 }
 
-.general-life-section > section div:nth-child(6) {
-    grid-row: 1/4;
-    grid-column: 4/5;
-    background: url("../images/new-year-my.jpg");
-    background-size: cover;
-    background-position: center;
-}
+
+
 
 .general-life-section > section div:nth-child(5) {
     grid-row: 3/4;
     grid-column: 1/3;
-    background: url("../images/group-my.jpg");
+    background: url("../assets/blog/WhatsApp\ Image\ 2024-05-17\ at\ 20.18.18.jpeg");
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -1328,7 +1329,7 @@ main section:nth-child(3) {
 .general-life-section > section div:nth-child(4) {
     grid-column: 2/4;
     grid-row: 2/3;
-    background: url("../images/innovesta-my.jpg");
+    background: url("../assets/blog/WhatsApp\ Image\ 2024-05-17\ at\ 20.09.16\(2\).jpeg");
     background-size: cover;
     background-position: center;
 }
