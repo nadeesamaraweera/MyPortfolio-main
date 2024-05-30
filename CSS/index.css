@@ -579,7 +579,7 @@ body main{
 .education-section section > .detail > h4 {
     color: #1540b8;
     font-family: 'Calibri', serif;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -587,13 +587,13 @@ body main{
 }
 
 .fa-graduation-cap {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .education-section section > .detail p {
     font-family: 'poppins', Roboto, cursive;
     width: max-content;
-    font-size: 20px;
+    font-size: 18px;
     color:#0b8dd8;
 }
 
@@ -604,31 +604,31 @@ body main{
 
 .education-section section > .detail#detail1 {
     position: relative;
-    left: 25vw;
+    left: 12vw;
     bottom: 2vw;
 }
 
 .education-section section > .detail#detail2 {
     position: relative;
-    left: 54vw;
+    left: 64vw;
     bottom:2vw;
 }
 
 .education-section section > .detail#detail3 {
     position: relative;
-    left: 25vw;
+    left: 12vw;
     bottom: 2vw;
 }
 
 .education-section section > .detail#detail4 {
     position: relative;
-    left: 54vw;
+    left: 64vw;
     bottom: 2vw;
 }
 
 .education-section section > .detail#detail5 {
     position: absolute;
-    right: 35vw;
+    right: 55vw;
 }
 
 /* ------------end about me section------------------------- */
