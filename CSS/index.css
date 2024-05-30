@@ -1,153 +1,30 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'PT Serif', serif;
+}
+
+::-webkit-scrollbar {
+    width: 0.7vw;
+    background-color: #143d75;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3771ee;
+}
+
+
+
+
+/* nav-bar section */
 
 body header div img {
     position: relative;
     border-radius: 100%;
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
     margin-top: 10px;
 
 }
-
-
-#loading {
-    position: fixed;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    text-align: center;
-    opacity: 1;
-    background-color: #fff;
-    z-index: 99;
-}
-
-#loading-image {
-    width: max-content;
-    height: max-content;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-#loading-image h3 {
-    color: orange;
-}
-
-
-*
-main h1 {
-    text-align: center;
-    color: #162A5F;
-    font-family: Inter;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-h1 span {
-    color: #33a3ff;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-body header {
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px #7a9bee;
-    display: flex;
-}
-
-.dark-button {
-    position: absolute;
-    right: 0;
-}
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 20px;
-}
-
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #29064d;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 17px;
-    width: 17px;
-    left: 4px;
-    bottom: 2px;
-    background-color: #117bc2;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input:checked + .slider {
-    background-color: #ffffff;
-    border: 1px solid black;
-}
-
-input:focus + .slider {
-    box-shadow: 0 0 1px #0a97e8;
-}
-
-input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-/* 
-main section {
-    width: 80%;
-    height: 50vh;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 0 4px 30px 2px #607ee0;
-    margin: auto;
-    position: relative;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-} */
-
-
-
-
-
-
-
-
-
 
 header {
     display: inline-flex;
@@ -161,19 +38,20 @@ header {
     z-index: 10;
 }
 
+
+
 #visitors > span:first-child {
-    margin-left: 6vw;
+    margin-left: 5vw;
     color: #211854;
     font-family: 'PT Serif', serif;
     width: max-content;
-    font-size: 25px;
+
 }
 
 #count {
     color: #3216af;
     font-family: 'PT Serif', serif;
     width: max-content;
-    font-size: 21px;
 }
 
 header nav > div > menu {
@@ -190,7 +68,7 @@ header nav > div > menu > li > a {
     color: #000102;
     font-family: 'PT Sans Narrow', sans-serif;
     /*font-family: 'Roboto', sans-serif;*/
-    font-size: 25px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -208,11 +86,13 @@ header > div {
 }
 
 
-/*background ----------------------------------------------------*/
-/* main > div:first-child {
+/* --------------------------------------------------------------------------- */
+
+/* -------------------background-------------------------------- */
+ main  > div:first-child{
     width: 100%;
     height: 100vh;
-    background: url("../assets/istockphoto-1138069810-612x612.jpg");
+    background: url("/assets/background-image-fixed.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -220,20 +100,20 @@ header > div {
     top: 0;
     z-index: -10;
     opacity: 60%;
-} */
-
-/*header section ------------------------------------------------------------------------------------------- */
-
-body main {
-    margin-top: 8vh;
-    position: relative;
-    background: url("../assets/background-image-fixed.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     
     
 }
+
+
+
+
+/*header section ------------------------------------------------------------------------------------------- */
+body main{
+    margin-top: 8vh;
+    position: relative;
+}
+
+
 
 .home-section {
     position: relative;
@@ -270,7 +150,8 @@ body main {
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:first-child {
-    color: #226bf3;
+    color: #1c63e7;
+    margin-bottom: 1vw;
     font-family: 'PT Serif', serif;
     font-size: 3vw;
     font-style: normal;
@@ -295,7 +176,7 @@ body main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 2vw;
+    margin-bottom: -1vw;
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) > span {
@@ -322,17 +203,17 @@ body main {
 .home-section > section:nth-child(3) > section:nth-child(1) > aside > strong {
     color: #094092;
     font-family: 'PT Serif', serif;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     position: relative;
-    top: 5vh;
+    top: 2vw;
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside > div:last-child {
     position: absolute;
-    bottom: -2vw;
+    bottom: -4vw;
     left: -2vw;
 }
 
@@ -342,23 +223,14 @@ body main {
     flex-shrink: 0;
     border-radius: 50px;
     background: #093ff0;
-    font-size: 1.3vw;
+    font-size: 1vw;
     transition-duration: 2s;
     color: white;
     border: #002fff;
     margin-left: 30px;
 }
 
-.home-section > section:nth-child(3) > section:last-child > div:first-child {
-    position: fixed;
-    right: 0;
-    width: 6vw;
-    height: 6vh;
-    background-color: #1968fc;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    z-index: 10;
-}
+
 
 .home-section > section:nth-child(3) > section:last-child > div:first-child > div {
     position: relative;
@@ -405,6 +277,10 @@ body main {
     left: 7vw;
     border-radius: 47%;
 }
+
+/* -------------------------------------------------------------------------------------- */
+
+/* status-section */
 
 .status-section {
     display: flex;
@@ -459,9 +335,9 @@ body main {
 .status-section > div:first-child > div:first-child {
     background: url("../assets/icons8-service-100.png");
     background-size: cover;
-    width: 90px;
-    height: 90px;
-    margin-top: 30px;
+   
+ 
+   
 
     
 }
@@ -469,69 +345,15 @@ body main {
 .status-section > div:nth-child(2) > div:first-child {
     background: url("../assets/icons8-projects-100.png");
     background-size: cover;
-    width: 90px;
-    height: 90px;
-    margin-top: 30px;
+   
 }
 
 .status-section > div:last-child > div:first-child {
     background: url("../assets/icons8-skills-100.png");
     background-size: cover;
-    width: 90px;
-    height: 90px;
-    margin-top: 30px;
+   
 }
 
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 20px;
-}
-
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #29064d;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 17px;
-    width: 17px;
-    left: 4px;
-    bottom: 2px;
-    background-color: #6d6d6d;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input:checked + .slider {
-    background-color: #ffffff;
-}
-
-input:focus + .slider {
-    box-shadow: 0 0 1px #e88b0a;
-}
-
-input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
 
 /* Rounded sliders */
 .slider.round {
@@ -570,146 +392,21 @@ input:checked + .slider:before {
 }
 
 .home-section > section:nth-child(3) > section:nth-child(1) > aside > div:last-child > a > button:hover {
-    background-color: #0a2a5a;
+    background-color: #18257b;
     color: white;
     transition-duration: 2s;
 }
 
 
-/*
-end headder style -----------------------------------------------------------------------------------------------*/
+/*end home  section -----------------------------------------------------------------------------------------------*/
 
-/*service section -----------------------------------------------------------------------------------------------*/
-.service-section > h4 {
-    text-align: center;
-    color: #2090ec;
-    font-family: 'PT Serif', serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
+/* About me section */
 
 
-.service-section > h1 {
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    color: #0a4bfd;
-    font-family: 'PT Serif', serif;
-    font-size: 2vw;
-}
-
-.service-section > h1 >span{
-    font-size: 5vw;
-    color: #042da0;
-
-}
-
-main section:nth-child(3) {
-    width: 100%;
-    height: 120vh;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.service-section > div:nth-child(2) > h1 > span:first-child {
-    font-size: 5vw;
-    color: #042da0;
-}
-
-
-.service-section > aside:nth-child(4) {
-    margin: auto;
-    display: flex;
-    width: 90%;
-    height: 40vh;
-    justify-content: space-between;
-}
-
-
-.service-section > aside > div {
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 0px 5px 30px 5px rgba(0, 0, 0, 0.25);
-    width: 28vw;
-    flex-shrink: 0;
-    transition-duration: 1s;
-}
-
-.service-section > aside > div:hover div {
-    transition-duration: 3s;
-    transform: rotate(360deg);
-}
-
-.service-section > aside > div:hover {
-    box-shadow: 0px 5px 30px 5px rgb(10, 132, 232);
-}
-
-.service-section > aside > div:hover p {
-    color: black;
-    transition-duration: 1s;
-}
-
-.service-section > aside > div div:first-child {
-    width: 7vw;
-    height: 7vw;
-    margin: auto;
-    position: relative;
-    top: 2vh;
-    
-}
-
-
-.service-section > aside:nth-child(4) > div:first-child div:nth-child(1) {
-    background: url("../assets/icons8-laptop-coding-100.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.service-section > aside:nth-child(4) > div:nth-child(2) div:nth-child(1) {
-    background: url("../assets/icons8-ux-100.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.service-section > aside:nth-child(4) > div:last-child div:nth-child(1) {
-    background: url("../assets/icons8-website-bug-96.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.service-section > aside > div h4 {
-    color: #3060e6;
-    font-family: Libre Baskerville, cursive;
-    font-size: 1.7em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-}
-
-.service-section > aside > div p {
-    color: #092f5e;
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-/*end service section style ---------------------------------------------------------------------------------*/
 .aboutme-section {
     margin-top: 5vh;
     width: 100%;
     height: 90vh;
-    background: url("../assets/background-image-fixed.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .aboutme-section > section:nth-child(3) {
@@ -737,7 +434,7 @@ main section:nth-child(3) {
 .aboutme-section > section:nth-child(3) > aside:last-child > p:first-child {
     color: #000;
     font-family: 'PT Serif', serif;
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: 7vh;
@@ -761,7 +458,7 @@ main section:nth-child(3) {
 .aboutme-section > section:nth-child(3) > aside:last-child > p:last-child {
     color: #171212;
     font-family: 'PT Serif', serif;
-    font-size: 28px;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 400;
     line-height: 4vh;
@@ -806,7 +503,6 @@ main section:nth-child(3) {
     font-size: 4vw;
 }
 
-/*about me section ------------------------------------------------------------------------------------------*/
 
 /*education section------------------------------------------------------------------------------------*/
 .education-section {
@@ -935,142 +631,12 @@ main section:nth-child(3) {
     right: 35vw;
 }
 
+/* ------------end about me section------------------------- */
 
-
-/*skill section ---------------------------------------------------------------------------------------------------*/
-.language-tools>div>h2,.language-tools>div>h2{
-    font-family: 'Bricolage Grotesque', cursive;
-    font-weight: normal;
-    font-size: 2vw;
+/*service section -----------------------------------------------------------------------------------------------*/
+.service-section > h4 {
     text-align: center;
-    color: #1a58b6;
-    margin-bottom: 3vw;
-
-}
-
-.language-tools>div>h2>span,.language-tools>div>h2>span{
-    color: #078edb;
-}
-
-.language-tools>div{
-    position: relative;
-    display: inline-block;
-    width: calc(99%/2);
-
-    height: 80vh;
-    margin-bottom: 5vw;
-    position: relative;
-}
-
-.language-tools>div>div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40vw;
-    height: 65vh;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin:auto;
-}
-
-.language-tools>div>div>img:first-child{
-    height: 15vh;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-}
-
-.language-tools>div>div>img:last-child{
-    height: 15vh;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 0;
-}
-
-.language-tools>div>div>div:nth-child(2){
-    width: 20vw;
-    height: 8vh;
-    /*border: 1px solid red;*/
-    position: absolute;
-    top: 20vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.language-tools>div>div>div:nth-child(3){
-    width:25vw;
-    height: 8vh;
-    /*border: 1px solid red;*/
-    display: block;
-    position: absolute;
-    top: 35vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.language-tools>div:last-child>div>div:nth-child(2){
-    width: 20vw;
-    height: 8vh;
-    position: absolute;
-    top: 15vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.language-tools>div:last-child>div>div:nth-child(3){
-    width:25vw;
-    height: 8vh;
-    display: block;
-    position: absolute;
-    top: 28vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.language-tools>div:last-child>div>div:nth-child(4){
-    width: 20vw;
-    height: 8vh;
-    display: block;
-    position: absolute;
-    top: 40vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-
-
-
-
-.language-tools {
-    width: 100%;
-    height: 70vh;
-}
-
-.language-tools > h4 {
-    text-align: center;
-    color:#32b5d6;
+    color: #2090ec;
     font-family: 'PT Serif', serif;
     font-size: 26px;
     font-style: normal;
@@ -1078,26 +644,121 @@ main section:nth-child(3) {
     line-height: normal;
 }
 
-.language-tools > h1 {
-    color:  #0a4bfd;
+
+.service-section > h1 {
+    text-align: center;
     font-family: 'PT Serif', serif;
-    font-size: 2vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-align: center;
-    margin-bottom: 0;
+    color: #0a4bfd;
+    font-family: 'PT Serif', serif;
+    font-size: 2vw;
 }
 
-.language-tools > h1 >span{
+.service-section > h1 >span{
     font-size: 5vw;
     color: #042da0;
 
 }
 
+main section:nth-child(3) {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.service-section > div:nth-child(2) > h1 > span:first-child {
+    font-size: 5vw;
+    color: #042da0;
+}
 
 
-/*recent works section-------------------------------------------------------------------------------------------------*/
+.service-section > aside:nth-child(4) {
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: 40vh;
+    justify-content: space-between;
+}
+
+
+.service-section > aside > div {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 5px 30px 5px rgba(0, 0, 0, 0.25);
+    width: 28vw;
+    flex-shrink: 0;
+    transition-duration: 1s;
+}
+
+.service-section > aside > div:hover div {
+    transition-duration: 3s;
+    transform: rotate(360deg);
+}
+
+.service-section > aside > div:hover {
+    box-shadow: 0px 5px 30px 5px rgb(10, 132, 232);
+}
+
+.service-section > aside > div:hover p {
+    color: black;
+    transition-duration: 1s;
+}
+
+.service-section > aside > div div:first-child {
+    width: 7vw;
+    height: 7vw;
+    margin: auto;
+    position: relative;
+    top: 2vh;
+    
+}
+
+
+.service-section > aside:nth-child(4) > div:first-child div:nth-child(1) {
+    background: url("../assets/icons8-laptop-coding-100.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.service-section > aside:nth-child(4) > div:nth-child(2) div:nth-child(1) {
+    background: url("../assets/icons8-ux-100.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.service-section > aside:nth-child(4) > div:last-child div:nth-child(1) {
+    background: url("../assets/icons8-website-bug-96.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.service-section > aside > div h4 {
+    color: #3060e6;
+    font-family: Libre Baskerville, cursive;
+    font-size: 1.7em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.service-section > aside > div p {
+    color: #092f5e;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*end service section style ---------------------------------------------------------------------------------*/
+
+
+/* -----------------------project section-------------------------------- */
 .recent-works {
     width: 100%;
     height: 100vh;
@@ -1231,7 +892,163 @@ main section:nth-child(3) {
 
 }
 
+/* ---------------------end project section------------------------- */
 
+
+
+/*skill section ---------------------------------------------------------------------------------------------------*/
+.language-tools>div>h2,.language-tools>div>h2{
+    font-family: 'Bricolage Grotesque', cursive;
+    font-weight: normal;
+    font-size: 2vw;
+    text-align: center;
+    color: #1a58b6;
+    margin-bottom: 3vw;
+
+}
+
+.language-tools>div>h2>span,.language-tools>div>h2>span{
+    color: #078edb;
+}
+
+.language-tools>div{
+    position: relative;
+    display: inline-block;
+    width: calc(99%/2);
+
+    height: 80vh;
+    margin-bottom: 5vw;
+    position: relative;
+}
+
+.language-tools>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    height: 65vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.language-tools>div>div>img:first-child{
+    height: 15vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+}
+
+.language-tools>div>div>img:last-child{
+    height: 15vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+
+.language-tools>div>div>div:nth-child(2){
+    width: 20vw;
+    height: 8vh;
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language-tools>div>div>div:nth-child(3){
+    width:25vw;
+    height: 8vh;
+    /*border: 1px solid red;*/
+    display: block;
+    position: absolute;
+    top: 35vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language-tools>div:last-child>div>div:nth-child(2){
+    width: 20vw;
+    height: 8vh;
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language-tools>div:last-child>div>div:nth-child(3){
+    width:25vw;
+    height: 8vh;
+    display: block;
+    position: absolute;
+    top: 28vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language-tools>div:last-child>div>div:nth-child(4){
+    width: 20vw;
+    height: 8vh;
+    display: block;
+    position: absolute;
+    top: 40vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.language-tools {
+    width: 100%;
+    height: 70vh;
+}
+
+.language-tools > h4 {
+    text-align: center;
+    color:#32b5d6;
+    font-family: 'PT Serif', serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.language-tools > h1 {
+    color:  #0a4bfd;
+    font-family: 'PT Serif', serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.language-tools > h1 >span{
+    font-size: 5vw;
+    color: #042da0;
+
+}
+
+
+/* ------------------------end Skill section----------------------- */
 
 /*general life section ----------------------------------------------------------------------------------------------*/
 
@@ -1340,6 +1157,8 @@ main section:nth-child(3) {
     width: 102%;
     z-index: 20;
 }
+
+
 
 /*contact section ------------------------------------------------------------------------------------------*/
 
@@ -1522,6 +1341,8 @@ main section:nth-child(3) {
 
 }
 
+/* -----------------------end contact section------------------------------- */
+
 /*footer section---------------------------------------------------------------------------------------*/
 
 body footer {
@@ -1546,12 +1367,6 @@ footer > nav {
     
     
 }
-
-
-
-
-
-
 
 footer > div:last-child > small {
     width: max-content;
@@ -2382,33 +2197,8 @@ footer section > div:nth-child(2) h4 {
         height: 64px;
     }
 
-    /*certificate section*/
-    .certificate-section > h4 {
-        font-size: 20px;
-    }
+   
 
-    .certificate-section > h1 {
-        font-size: 25px;
-    }
-
-    .certificate-section > section:last-child {
-        width: 85%;
-        height: 35vh;
-        top: 10vh;
-    }
-
-    .certificate-section > section > div:nth-child(2) {
-        width: 60%;
-        height: 45vh;
-    }
-
-    .certificate-section {
-        height: 75vh;
-    }
-
-    .certificate-section > section > button {
-        font-size: 40px;
-    }
 
     /*blog section --------------------*/
     .general-life-section > h4 {
@@ -2679,19 +2469,7 @@ footer section > div:nth-child(2) h4 {
     }
 
 
-    /*Certificate -----------------------------*/
-    .certificate-section > section:last-child {
-        width: 88%;
-        top: 5vh;
-    }
-
-    .certificate-section > section > button {
-        font-size: 75px;
-    }
-
-    .certificate-section > section > button {
-        height: 10vw;
-    }
+   
 
     /*contact section ---------------*/
     .contact-section > section > address p {
@@ -2718,41 +2496,3 @@ footer section > div:nth-child(2) h4 {
 
 }
 
-
-/*animation
-/* Animation property */
-/*
-button {
-    animation: wiggle 2s linear infinite;
-}
-
-button:hover {
-    animation-play-state: paused;
-    transform: none;
-}
-
-!* Keyframes *!
-@keyframes wiggle {
-    0%, 7% {
-        transform: rotateZ(0);
-    }
-    15% {
-        transform: rotateZ(-15deg);
-    }
-    20% {
-        transform: rotateZ(10deg);
-    }
-    25% {
-        transform: rotateZ(-10deg);
-    }
-    30% {
-        transform: rotateZ(6deg);
-    }
-    35% {
-        transform: rotateZ(-4deg);
-    }
-    40%, 100% {
-        transform: rotateZ(0);
-    }
-}
-*/
