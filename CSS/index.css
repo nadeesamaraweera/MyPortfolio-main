@@ -1355,7 +1355,7 @@ main section:nth-child(3) {
 
 body footer {
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     box-sizing: border-box;
     position: relative;
     background: #4e85d8;
@@ -1368,10 +1368,13 @@ body footer section {
 
 
 
+
+
 footer > nav {
     width: max-content;
     position: relative;
     margin: auto;
+    margin-top: -60px;
     
     
 }
@@ -1384,14 +1387,14 @@ footer > div:last-child > small {
     bottom: 1vh;
     right: 0;
     left: 0;
-    color: white;
+    color: rgb(5, 24, 67);
     font-size: 18px;
     
 }
 
 footer div:first-child h4 {
-    color: #FFF;
-    font-family: Inter, sans-serif;
+    color: #0a1180;
+    font-family: 'Calibri', cursive;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -1401,11 +1404,11 @@ footer div:first-child h4 {
 }
 
 footer div:first-child p {
-    color: #FFF;
-    font-family: Inter, cursive;
+    color: #1847f1;
+    font-family: 'Calibri', cursive;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     margin: 0;
     margin-left: 2vw;
@@ -1420,6 +1423,10 @@ footer section > div:nth-child(2) h4 {
     line-height: normal;
     margin: 0;
 }
+
+
+
+
 
 /*media quary--------------------------------------------------------------------------------------*/
 
