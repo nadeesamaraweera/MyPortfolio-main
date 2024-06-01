@@ -1216,6 +1216,7 @@ main section:nth-child(3) {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: -30px;
 }
 
 .contact-section > section > address a {
@@ -1225,6 +1226,7 @@ main section:nth-child(3) {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: -30px;
 }
 
 .contact-section > section > address p {
@@ -1284,11 +1286,12 @@ main section:nth-child(3) {
     height: 6vh;
     flex-shrink: 0;
     border-radius: 20px 20px 10px 20px;
-    background: rgba(77, 164, 247, 0.37);
+    background: rgba(41, 139, 231, 0.37);
     border: 0;
     margin-top: 2vh;
     margin-bottom: 2vh;
     box-shadow: 5px 5px 20px 2px rgba(13, 46, 235, 0.25);
+    font-size: 18px;
 }
 
 .contact-section aside > form > fieldset > textarea {
@@ -1296,22 +1299,21 @@ main section:nth-child(3) {
     height: 15vh;
     flex-shrink: 0;
     border-radius: 20px 20px 10px 20px;
-    background:  rgba(77, 164, 247, 0.37);
+    background:  rgba(41, 139, 231, 0.37);
     border: 0;
     margin-top: 2vh;
     box-shadow: 5px 5px 20px 2px rgba(13, 46, 235, 0.25);
+    font-size: 18px;
     
 }
 
 .contact-section aside > form > fieldset > label {
-    color: #494949;
-    font-family: Inter, sans-serif;
-    font-size: 20px;
+    color: #141a7c;
+    font-family: 'Calibri', cursive;
+    font-size: 1.5rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
-    width: 62px;
-    height: 22px;
     flex-shrink: 0;
 }
 
@@ -1336,9 +1338,15 @@ main section:nth-child(3) {
 }
 
 .contact-section img{
-    margin-left: 100px;
-    margin-top: 10px;
 
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.contact-section iframe{
+    height: 22vw;
+    width: 38vw;
 }
 
 /* -----------------------end contact section------------------------------- */
