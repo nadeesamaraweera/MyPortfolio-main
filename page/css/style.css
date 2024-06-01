@@ -37,10 +37,7 @@ body header {
     display: flex;
 }
 
-.dark-button {
-    position: absolute;
-    right: 0;
-}
+
 
 .switch {
     position: relative;

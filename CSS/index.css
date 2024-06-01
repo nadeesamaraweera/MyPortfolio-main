@@ -826,19 +826,19 @@ main section:nth-child(3) {
 }
 
 .recent-works > section > div:nth-child(1) > div > div:first-child {
-    width: 5vw;
-    height: 9vh;
+    width: 8vw;
+    height: 13vh;
     background: url("../assets/icons8-project-100.png");
     background-size: cover;
     background-position: center;
-    top: 12vh;
+    
 }
 
 .recent-works > section > div:nth-child(2) > div > div:first-child {
     background: url("../assets/icons8-assignment-100.png");
     background-size: cover;
     background-position: center;
-    top: 12vh;
+    
 }
 
 
