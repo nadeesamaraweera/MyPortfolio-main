@@ -68,7 +68,7 @@ header nav > div > menu > li > a {
     color: #000102;
     font-family: 'PT Sans Narrow', sans-serif;
     /*font-family: 'Roboto', sans-serif;*/
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -803,6 +803,7 @@ main section:nth-child(3) {
     align-content: space-between;
 }
 
+
 .recent-works > section > div > div {
     width: 25%;
     position: absolute;
@@ -824,6 +825,8 @@ main section:nth-child(3) {
     width: 30vw;
     height: 70vh;
 }
+
+
 
 .recent-works > section > div:nth-child(1) > div > div:first-child {
     width: 80px;
@@ -848,7 +851,7 @@ main section:nth-child(3) {
 .recent-works > section > div > div > h4 {
     text-align: center;
     position: relative;
-    top: 5vh;
+    top: 7vh;
     color: #062a8d;
     font-family: 'poppins', Roboto;
     font-size: 24px;
