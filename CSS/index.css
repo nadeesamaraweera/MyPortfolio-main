@@ -434,7 +434,7 @@ body main{
 .aboutme-section > section:nth-child(3) > aside:last-child > p:first-child {
     color: #000;
     font-family: 'PT Serif', serif;
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-style: normal;
     font-weight: 400;
     line-height: 7vh;
@@ -458,7 +458,7 @@ body main{
 .aboutme-section > section:nth-child(3) > aside:last-child > p:last-child {
     color: #171212;
     font-family: 'PT Serif', serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: 4vh;
@@ -470,7 +470,7 @@ body main{
 .aboutme-section > section:nth-child(3) > aside:last-child > p:last-child > span {
     color: #0a56e4;
     font-family: 'PT Serif', serif;
-    font-size: 3vh;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -738,7 +738,7 @@ main section:nth-child(3) {
 .service-section > aside > div h4 {
     color: #3060e6;
     font-family: Libre Baskerville, cursive;
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -749,7 +749,7 @@ main section:nth-child(3) {
     color: #092f5e;
     text-align: center;
     font-family: 'PT Serif', serif;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -826,8 +826,8 @@ main section:nth-child(3) {
 }
 
 .recent-works > section > div:nth-child(1) > div > div:first-child {
-    width: 8vw;
-    height: 13vh;
+    width: 80px;
+    height: 70px;
     background: url("../assets/icons8-project-100.png");
     background-size: cover;
     background-position: center;
@@ -835,6 +835,8 @@ main section:nth-child(3) {
 }
 
 .recent-works > section > div:nth-child(2) > div > div:first-child {
+    width: 80px;
+    height: 70px;
     background: url("../assets/icons8-assignment-100.png");
     background-size: cover;
     background-position: center;
@@ -846,10 +848,10 @@ main section:nth-child(3) {
 .recent-works > section > div > div > h4 {
     text-align: center;
     position: relative;
-    top: 13vh;
+    top: 5vh;
     color: #062a8d;
     font-family: 'poppins', Roboto;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -858,11 +860,11 @@ main section:nth-child(3) {
 .recent-works > section > div > div > p {
     text-align: center;
     position: relative;
-    top: 12vh;
+    top: 5vh;
     color: #5b6b8a;
     text-align: center;
     font-family: 'Calibri', serif;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -870,7 +872,7 @@ main section:nth-child(3) {
 
 .recent-works > section > div > div > a {
     position: relative;
-    top: 15vh;
+    top: 10vh;
     color: #15295F;
     font-family: 'Roboto', cursive;
     font-size: 20px;
@@ -1212,21 +1214,21 @@ main section:nth-child(3) {
 .contact-section > section > address h4 {
     color: #162A5F;
     font-family: 'Calibri', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: -30px;
+    margin-left: -35px;
 }
 
 .contact-section > section > address a {
     color: #494949;
     font-family: 'poppins', Roboto;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: -30px;
+    margin-left: -35px;
 }
 
 .contact-section > section > address p {
@@ -1291,7 +1293,7 @@ main section:nth-child(3) {
     margin-top: 2vh;
     margin-bottom: 2vh;
     box-shadow: 5px 5px 20px 2px rgba(13, 46, 235, 0.25);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .contact-section aside > form > fieldset > textarea {
@@ -1303,14 +1305,14 @@ main section:nth-child(3) {
     border: 0;
     margin-top: 2vh;
     box-shadow: 5px 5px 20px 2px rgba(13, 46, 235, 0.25);
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
 .contact-section aside > form > fieldset > label {
     color: #141a7c;
     font-family: 'Calibri', cursive;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1334,19 +1336,19 @@ main section:nth-child(3) {
     transition-duration: 2s;
     color: black;
     border: white;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .contact-section img{
 
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     margin-top: 20px;
 }
 
 .contact-section iframe{
-    height: 22vw;
-    width: 38vw;
+    height: 18vw;
+    width: 34vw;
 }
 
 /* -----------------------end contact section------------------------------- */
@@ -1388,14 +1390,14 @@ footer > div:last-child > small {
     right: 0;
     left: 0;
     color: rgb(5, 24, 67);
-    font-size: 18px;
+    font-size: 14px;
     
 }
 
 footer div:first-child h4 {
     color: #0a1180;
     font-family: 'Calibri', cursive;
-    font-size: 32px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1406,7 +1408,7 @@ footer div:first-child h4 {
 footer div:first-child p {
     color: #1847f1;
     font-family: 'Calibri', cursive;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
