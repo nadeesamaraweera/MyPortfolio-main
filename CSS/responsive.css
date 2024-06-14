@@ -1,352 +1,324 @@
+@media (max-width: 977px) {
+  .hideOnMobile{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar{
+    width: 100%;
+  }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  /*service section -----------------------------------------------------------------------------------------------*/
+.service-section > h4 {
+    font-size: 26px;
+    margin-top: 40vh;
+
+}
+
+
+.service-section > h1 {
+ 
+  font-size:3vw;
+}
+
+.service-section > h1 >span{
+  font-size: 10vw;
+
+}
+
+.service-section > aside:nth-child(4) {
+  
+  width: 95%;
+  height: 60vh;
+  justify-content: space-between;
+}
+
+
+}
+
+/* --------------project---------- */
+
+
+
+.recent-works > h4 {
+  
+  font-size: 26px;
+
+}
+
+.recent-works > h1 {
+
+  font-size:2vw;
+ 
+}
+
+.recent-works > h1 > span {
+  font-size: 6w;
+}
+
+
+
+.work-svg {
+  width: 40vw;
+  height: 70vh;
+}
+
+.recent-works > section > div:nth-child(1) > div > div:first-child {
+  left: 10vh;
+}
+
+.recent-works > section > div:nth-child(2) > div > div:first-child {
+  left: 12vh;
+
+  
+}
+
+.recent-works > section > div > div > h4 {
+  left: 10vh;
+  font-size: 26px;
+
+}
+
+.recent-works > section > div > div > p {
+  left: 12vh;
+  font-size: 21px;
+  
+}
+
+.recent-works > section > div > div > a {
+  left: 10vh;
+
+  top: 7vh;
+  
+}
+
+/* -----------------language----------------------- */
+
+.language-tools>div>h2,.language-tools>div>h2{
+
+  font-size: 2vw;
+  
+
+}
+
+
+
+.language-tools>div>div>img:first-child{
+  height: 18vh;
+  
+}
+
+.language-tools>div>div>img:last-child{
+  height: 15vh;
+ 
+}
+.language-tools>div>div>div:nth-child(2){
+  width: 30vw;
+  height: 9vh;
+
+}
+
+.language-tools>div>div>div:nth-child(3){
+  width:30vw;
+  height: 8vh;
+
+}
+
+
+
+.language-tools>div:last-child>div>div:nth-child(3){
+  width:25vw;
+  height: 8vh;
+  
+}
+
+.language-tools>div:last-child>div>div:nth-child(4){
+  width: 30vw;
+  height: 9vh;
+
+
+}
+
+
+.language-tools > h4 {
+  margin-top: 40vh;
+  font-size: 26px;
+
+}
+
+.language-tools > h1 {
+  
+  font-size: 2vw;
+  
+}
+
+.language-tools > h1 >span{
+  font-size: 6vw;
+
+}
+
+
+
+
 
 @media (max-width: 767px) {
-  /* Header */
-  header {
-    height: 9vh;
-    width: 80vh;
-    
-  }
-  header div img {
-    width: 30px;
-    height: 30px;
-  }
-  #visitors > span:first-child {
-    margin-left: 3vw;
-    font-size: 0.9rem;
-  }
-  #count {
-    font-size: 0.9rem;
-    margin-top: 5vw;
-  }
-  header nav > div > menu > li{
-    display: block;
-    
-  }
-  header nav > div > menu > li > a {
-    font-size: 1rem;
-    margin-left: 25vh;
-    
-  }
+  /*service section -----------------------------------------------------------------------------------------------*/
+.service-section > h4 {
+    font-size: 26px;
+    margin-top: 40vh;
 
-  /* Home Section */
-  .home-section {
-    height: 300vw;
-    width: 100vw;
-  }
-  .home-section > section:nth-child(3) {
-    flex-direction: column;
-  }
-  .home-section > section:nth-child(3) > section {
-    width: 120vw;
-    height: auto;
-    top: -15vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > h1:first-child {
-    font-size: 10vw;
-    left: 20vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:first-child {
-    font-size: 8vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h1:nth-child(2) {
-    font-size: 8vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) {
-    font-size: 6vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) > span {
-    font-size: 6vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:nth-child(4) {
-    font-size: 5vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside > strong {
-    font-size: 4vw;
-    top: 45vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside > div:last-child > a > button {
-    width: 30vw;
-    height: 6vh;
-    font-size: 4vw;
-    
-  }
-
-  
-  .home-section > section:nth-child(3) > section:last-child > div:last-child > div:first-child {
-    left: 35vw;
-    width: 60vw;
-    height: 60vw;
-  }
-
-  .home-section > section:nth-child(3) > section:last-child > div:last-child > div:nth-child(2) {
-    left: 28vw;
-    width: 60vw;
-    height: 60vw;
-  }
-
-  .home-section > section:nth-child(3) > section:last-child > div:last-child > div:nth-child(3) {
-    left: 20vw;
-    width: 60vw;
-    height: 60vw;
-  }
-
-  .home-section > section:nth-child(3) > section:last-child > div:last-child > div:nth-child(4) {
-    left: 20vw;
-    width: 58vw;
-    height: 78vw;
-    top: -10vw;
-  }
-
-  main  > div:first-child{
-    width: 1px;
-  }
-  
+}
 
 
-  .curve {
-    height: 130vh;
-    width: 128vw;
-  }
+.service-section > h1 {
  
-
-  .custom-shape-divider-bottom-1693915055 svg {
-    height: 50vw;
-  }
-
-
-  .status-section {
-    width: 40%;
-    height: auto;
-    flex-direction: column;
-    top: -19vh;
-  }
-  .status-section > div {
-    width: 100%;
-    height: auto;
-    padding: 2vh 0;
-  }
-  .status-section > div h4 {
-    font-size: 4vw;
-  }
-  .status-section > div p {
-    font-size: 3.5vw;
-  }
-  .status-section > div > div:first-child {
-    width: 15vw;
-    height: 15vw;
-  }
-
-  /* About Me Section */
-  .aboutme-section {
-    height: auto;
-    margin-top: 2vh;
-  }
-
-  .aboutme-section > div:nth-child(2) > h1 {
-  font-size: 7vw;
+  font-size:3vw;
 }
-.aboutme-section > div:nth-child(2) > h1 > span:first-child {
+
+.service-section > h1 >span{
   font-size: 10vw;
+
 }
 
-  .aboutme-section > section:nth-child(3) > aside:last-child > p:first-child > span {
-    font-size: 7vw;
-    
-
-  }
-  .aboutme-section > section:nth-child(3) > aside:last-child > p:first-child {
-    font-size: 6vw;
-    width: 70vh;
+.service-section > aside:nth-child(4) {
+  
+  width: 95%;
+  height: 60vh;
+  justify-content: space-between;
 }
 
 
-  .aboutme-section > section:nth-child(3) > aside:last-child > p:last-child {
-    width: 80vh;
-    font-size: 6vw;
-  }
+}
+
+/* --------------project---------- */
 
 
-  .aboutme-section > section:nth-child(3) > aside:last-child > p:last-child > span {
-    font-size: 6vw;
-  }
 
+.recent-works > h4 {
+  
+  font-size: 26px;
 
-  .aboutme-section > section:nth-child(3) {
-    flex-direction: column;
-  }
-  .aboutme-section > section:nth-child(3) > aside:first-child {
-    width: 90%;
-    height: auto;
-  }
-  .aboutme-section > section:nth-child(3) > aside:first-child img {
-    width: 80vw;
-    height: 80vw;
-    margin-top: 20px;
-    margin-left: 20vw;
-  }
+}
 
-  /* -------------education section ---------------------- */
+.recent-works > h1 {
 
-    .education-section {
-        height: auto;
-        padding: 70vh 2vw;
-    }
+  font-size:2vw;
+ 
+}
 
-    .education-section h1 {
-        font-size: 8vw;
-    }
-
-    .education-section > h4:first-child {
-        font-size: 6vw;
-    }
-
-    .education-section hr {
-        width: 50vw;
-    }
-
-    .circles {
-        width: 7vw;
-        height: 5vw;
-    }
-
-    .education-section #line {
-        display: none;
-    }
-
-    .education-section section > .detail {
-        width: 80vw;
-        margin-bottom: 5vh;
-    }
-
-    .education-section section > .detail#detail1,
-    .education-section section > .detail#detail3 {
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .education-section section > .detail#detail2,
-    .education-section section > .detail#detail4 {
-        left: 70vw;
-        right: 0;
-        margin: auto;
-    }
-
-    .education-section section > .detail#detail5 {
-        position: relative;
-        right: 0;
-        margin: auto;
-    }
-
-    .education-section section > .detail > h4 {
-        font-size: 6vw;
-        width: 20vw;
-    }
-
-    .education-section section > .detail p {
-        font-size: 6vw;
-        width: 70px;
-    }
+.recent-works > h1 > span {
+  font-size: 6w;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Tablet Devices */
-@media (min-width: 768px) and (max-width: 1023px) {
-  /* Header */
-  header {
-    height: 7vh;
-  }
-  header div img {
-    width: 35px;
-    height: 35px;
-  }
-  #visitors > span:first-child {
-    margin-left: 4vw;
-    font-size: 0.9rem;
-  }
-  #count {
-    font-size: 0.9rem;
-  }
-  header nav > div > menu > li > a {
-    font-size: 1rem;
-  }
-
-  /* Home Section */
-  .home-section > section:nth-child(3) > section {
-    width: 70%;
-    height: 80vh;
-    top: -12vh;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > h1:first-child {
-    font-size: 8vw;
-    left: 25vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:first-child {
-    font-size: 4vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h1:nth-child(2) {
-    font-size: 5vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) {
-    font-size: 3.5vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > h4:nth-child(3) > span {
-    font-size: 3.5vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside div:first-child > p:nth-child(4) {
-    font-size: 2.5vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside > strong {
-    font-size: 3vw;
-  }
-  .home-section > section:nth-child(3) > section:nth-child(1) > aside > div:last-child > a > button {
-    width: 20vw;
-    height: 6vh;
-    font-size: 2vw;
-  }
-  .status-section {
-    width: 80%;
-    height: 13vh;
-    top: -28vh;
-  }
-  .status-section > div h4 {
-    font-size: 2.5vw;
-  }
-  .status-section > div p {
-    font-size: 2vw;
-  }
-  .status-section > div > div:first-child {
-    width: 10vw;
-    height: 10vw;
-  }
-
-  /* About Me Section */
-  .aboutme-section > section:nth-child(3) > aside:first-child img {
-    width: 22vw;
-    height: 28vw;
-    margin-top: 40px;
-    margin-left: 1vw;
-  }
+.work-svg {
+  width: 40vw;
+  height: 70vh;
 }
 
-/* Desktop Devices */
-@media (min-width: 1024px) {
-  /* No additional changes needed */
+.recent-works > section > div:nth-child(1) > div > div:first-child {
+  left: 10vh;
 }
+
+.recent-works > section > div:nth-child(2) > div > div:first-child {
+  left: 12vh;
+
+  
+}
+
+.recent-works > section > div > div > h4 {
+  left: 10vh;
+  font-size: 26px;
+
+}
+
+.recent-works > section > div > div > p {
+  left: 12vh;
+  font-size: 21px;
+  
+}
+
+.recent-works > section > div > div > a {
+  left: 10vh;
+
+  top: 7vh;
+  
+}
+
+/* -----------------language----------------------- */
+
+.language-tools>div>h2,.language-tools>div>h2{
+
+  font-size: 2vw;
+  
+
+}
+
+
+
+.language-tools>div>div>img:first-child{
+  height: 18vh;
+  
+}
+
+.language-tools>div>div>img:last-child{
+  height: 15vh;
+ 
+}
+.language-tools>div>div>div:nth-child(2){
+  width: 30vw;
+  height: 9vh;
+
+}
+
+.language-tools>div>div>div:nth-child(3){
+  width:30vw;
+  height: 8vh;
+
+}
+
+
+
+.language-tools>div:last-child>div>div:nth-child(3){
+  width:25vw;
+  height: 8vh;
+  
+}
+
+.language-tools>div:last-child>div>div:nth-child(4){
+  width: 30vw;
+  height: 9vh;
+
+
+}
+
+
+.language-tools > h4 {
+  margin-top: 40vh;
+  font-size: 26px;
+
+}
+
+.language-tools > h1 {
+  
+  font-size: 2vw;
+  
+}
+
+.language-tools > h1 >span{
+  font-size: 6vw;
+
+}
+
+

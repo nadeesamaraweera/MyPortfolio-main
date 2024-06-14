@@ -33,7 +33,9 @@
     <!--        navigation-->
     <nav>
         <div>
-            <menu>
+            <menu class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"  viewBox="0 -960 960 960" width="20px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+
                 <li><a href="#home-section"><i class ='bx bxs-home bx-tada' ></i>&nbsp;&nbsp;Home</a>
                 </li>
                 <li><a href="#about-section"><i class ='bx bxs-user-detail bx-tada' ></i>&nbsp;&nbsp;About</a>
@@ -45,6 +47,22 @@
                 <li><a href="#skill-section"><i class ='bx bxl-squarespace bx-tada' ></i>&nbsp;&nbsp;Skills</a>
                 </li>
                 <li><a href="#contact-section"><i class ='bx bxs-phone bx-tada'></i>&nbsp;&nbsp;Contact</a>
+                </li>
+            </menu>
+            <menu>
+                <li class="hideOnMobile"><a href="#home-section"><i class ='bx bxs-home bx-tada' ></i>&nbsp;&nbsp;Home</a>
+                </li>
+                <li class="hideOnMobile"><a href="#about-section"><i class ='bx bxs-user-detail bx-tada' ></i>&nbsp;&nbsp;About</a>
+                </li>
+                <li class="hideOnMobile"><a href="#service-section"><i class ='bx bxs-layer bx-tada' ></i>&nbsp;&nbsp;Services</a>
+                </li>
+                <li class="hideOnMobile"><a href="#project-section"><i class ='bx bxs-calendar-edit bx-tada' ></i>&nbsp;&nbsp;Projects</a>
+                </li>
+                <li class="hideOnMobile"><a href="#skill-section"><i class ='bx bxl-squarespace bx-tada' ></i>&nbsp;&nbsp;Skills</a>
+                </li>
+                <li class="hideOnMobile"><a href="#contact-section"><i class ='bx bxs-phone bx-tada'></i>&nbsp;&nbsp;Contact</a>
+                </li>
+                <li  class="menu-button" onclick=showSidebar()><a href="#contact-section"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
                 </li>
             </menu>
         </div>
@@ -678,6 +696,18 @@
  <script src="/JS/portflio.js"></script>
 
 
- 
+ <script>
+    function showSidebar(){
+        const sidebar =document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    
+    }
+
+    function hideSidebar(){
+        const sidebar =document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    
+    }
+ </script>
  </body>
 </html>
