@@ -90,7 +90,7 @@ header > div {
     top: 0;
     right: 0;
     z-index: 999;
-    height: 30vh;
+    height: 35vh;
     background-color:rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
@@ -98,7 +98,7 @@ header > div {
     flex-direction: column;
     align-items:flex-start;
     justify-content: flex-start;
-    margin-left: 70vw;
+    margin-left: 50vw;
 
 
 }
@@ -388,13 +388,6 @@ body main{
 
 
 /* Rounded sliders */
-.slider.round {
-    border-radius: 3px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
 
 .custom-shape-divider-bottom-1693915055 {
     position: absolute;
